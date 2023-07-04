@@ -1,0 +1,47 @@
+@import "../../scss/variables";
+
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: $cardNavBgColor;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+
+    img{
+
+        width: 150px;
+        height: 150px;
+    }
+
+    .links{
+
+        padding: 1.5rem;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: flex-end;
+        gap: 1rem;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $secondaryColor;
+            padding: 0.5rem;
+
+            &:hover{
+
+                background-color: $secondaryColor;
+                color: $cardNavBgColor;
+                border-radius: 5px;
+            }
+        }
+
+        
+    }
+}
+
+
