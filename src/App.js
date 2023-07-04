@@ -1,7 +1,12 @@
+import "./App.scss";
+
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+
+      <header className="App-header">Learn React</header>
     </div>
   )
 }
