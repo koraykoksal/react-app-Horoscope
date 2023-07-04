@@ -10,6 +10,9 @@
 body{
 
     font-family: 'Rubik Distressed', cursive;
+    background-image: $backgroundImage;
+    height: 100vh;
+    background-attachment: fixed; //background sabitleme
 }
 
 p{
